@@ -58,3 +58,15 @@ Some stuff
 > Sources:
 > - https://learn.javascript.ru/object-reference 
 
+
+#### <i class="icon-star"></i> Prototypes
+Some stuff
+
+*What you'll learn:*
+
+ 1. Question 1
+ 2. Question 2
+ 3. Question 3
+
+> Sources:
+> - https://learn.javascript.ru/prototypes 
