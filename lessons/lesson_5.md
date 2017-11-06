@@ -47,7 +47,7 @@ Some stuff
 
 
 
-#### <i class="icon-star"></i> Lexical Scope
+#### <i class="icon-star"></i> Lexical Scope and Scope closure
 Some stuff
 
 *What you'll learn:*
@@ -58,6 +58,7 @@ Some stuff
 
 > Sources:
 > - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md 
+> - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md
 
 #### <i class="icon-star"></i> Functions scope and blocks scope
 Some stuff
@@ -83,14 +84,3 @@ Some stuff
 > Sources:
 > - https://learn.javascript.ru/closures-usage
 
-#### <i class="icon-star"></i> Scope closure
-Some stuff
-
-*What you'll learn:*
-
- 1. Question 1
- 2. Question 2
- 3. Question 3
-
-> Sources:
-> - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md
