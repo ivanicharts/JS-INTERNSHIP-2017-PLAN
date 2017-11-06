@@ -1,0 +1,1 @@
+# Lesson 5 - Closures, scope, lexical environment

@@ -1,0 +1,1 @@
+# Lesson 2 - Functions, dive into numbers and strings

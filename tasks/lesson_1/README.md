@@ -1,0 +1,1 @@
+# Lesson 1 - Basics, types, vars, loops, operators, comparison
