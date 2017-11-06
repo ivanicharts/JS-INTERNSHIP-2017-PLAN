@@ -21,21 +21,17 @@ Some stuff
 > - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function
 > - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values
 
-#### <i class="icon-star"></i> Variables
-Depending on what you are doing, you will need to work with the information.
-If it's a store - then it's goods, or a basket. If it's a chat app - visitors, messages and so on.
-To store information, *variables* are used.
+#### <i class="icon-star"></i> Recursion, stack
+Some stuff
 
 *Overall questions:*
 
- 1. What is a variable?
- 2. Which characters can contain var name?
- 3. What is hoisting?
+ 1. Question 1
+ 2. Question 2
+ 3. Question 3
 
 > Sources:
-> - https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md#variables 
-> - https://learn.javascript.ru/variables 
-> - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables 
+> - https://learn.javascript.ru/recursion
 
 #### <i class="icon-star"></i> Data types
 JavaScript has typed values, not typed variables. Here you need to understand differences between 6 data types of JavaScript.
