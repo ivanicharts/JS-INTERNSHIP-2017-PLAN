@@ -1,8 +1,21 @@
-let invalid_args = ['a', '3', ' ', '1+0'];
-let valid_args = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-
-for (let x of invalid_args)
-  Test.expect(!solution.test(x), "Your solution should reject invalid input");
-
-for (let x of valid_args)
-  Test.assertEquals(solution.test(x.toString(2)), x % 7 == 0, "Your solution is not correct");
+var assert = require('assert');
+describe('Check variables', function() {
+    it('Variable "thisIsNumber" should be a number', function() {
+        assert.equal(typeof thisIsNumber, 'number');
+    });
+    it('Variable "thisIsString" should be a string', function() {
+        assert.equal(typeof thisIsString, 'string');
+    });
+    it('Variable "thisIsBoolean" should be a boolean variable', function() {
+        assert.equal(typeof thisIsBoolean, 'boolean');
+    });
+    it('Variable "thisIsObject" should be an object', function() {
+        assert.equal(typeof thisIsObject, 'object');
+    });
+    it('Variable "undefiendOne" should be undefined', function() {
+        assert.equal(typeof undefiendOne, 'undefined');
+    });
+    it('Variable "typeOfObject" should be a string', function() {
+        assert.equal(typeof typeOfObject, answer);
+    });
+});

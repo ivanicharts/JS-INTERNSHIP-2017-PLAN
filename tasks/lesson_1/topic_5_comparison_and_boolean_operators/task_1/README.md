@@ -1,7 +1,5 @@
-Create a regular expression capable of evaluating *binary strings* (which consist of only `1`'s and `0`'s) and determining whether the given string represents a number divisible by `7`.
+Use the "if...else if" or "switch...case" constructions to check the type of variable "a" and give the answer in the following format:
 
-Note:
-
-* Empty strings should be rejected.
-* Your solution should reject strings with any character other than `0` and `1`.
-* No leading `0`'s will be tested unless the string exactly denotes `0`.
+'Variable "a" is a number and is equal to 5' - for numbers
+'Variable "a" is a string and is equal to "some string"' - for strings
+'Variable "a" is not a number or a string' - for another types

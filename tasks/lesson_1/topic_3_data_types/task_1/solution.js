@@ -1,3 +1,20 @@
-// Write a regular expression to detect whether a binary number is divisible by 7
-// It won't be accepted if you code something else like Function
-const solution = /.../;
+//Variable "number" should have type "number"
+var thisIsNumber = '?';
+
+//Variable "string" should have type "string"
+var thisIsString = '?';
+
+//Variable "boolean" should have type "boolean"
+var thisIsBoolean = '?';
+
+//Variable "object" should have type "object"
+var thisIsObject = '?';
+
+//Variable "undefiendOne" should have type "undefined"
+var undefiendOne = '?';
+
+
+var typeOfObject = typeof d;
+
+//What type of variable "typeOfObject"?
+var answer = '?';

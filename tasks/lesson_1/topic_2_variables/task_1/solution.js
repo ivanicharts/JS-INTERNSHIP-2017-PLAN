@@ -1,3 +1,17 @@
-// Write a regular expression to detect whether a binary number is divisible by 7
-// It won't be accepted if you code something else like Function
-const solution = /.../;
+var name = 'Alex',
+    name2 = 'name2',
+    3names = 'Alex Max Nataly',
+    __firstName = 'John',
+    last-name = 'Smith',
+    last_name = 'LastName',
+    for = 'the best',
+    _ = true,
+    true = true,
+    delete-me = '<--- the error here',
+    i_am_an_error_too_delete_me = 'if you can',
+    iAmOneOfTheMostBiggestVariablesInThisWorld = 'Do not repeat this sh** at home',
+    thatIsVeryLongVariableWithoutAnyErrors(MayBe) = 'Got you',
+    $ = 1,
+    $role = 'User',
+    itWillBeLegen...WaitForIt...Dary = 'Legendary',
+    weHave10VariablesHere = 'am i right?';
