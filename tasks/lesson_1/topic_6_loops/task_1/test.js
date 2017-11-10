@@ -1,8 +1,16 @@
-let invalid_args = ['a', '3', ' ', '1+0'];
-let valid_args = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+var assert = require('assert');
 
-for (let x of invalid_args)
-  Test.expect(!solution.test(x), "Your solution should reject invalid input");
+describe('Check variables', function() {
+    var caseList = [0, 5, 10, 100, 1000];
 
-for (let x of valid_args)
-  Test.assertEquals(solution.test(x.toString(2)), x % 7 == 0, "Your solution is not correct");
+    for (var i in caseList) {
+        var caseTitle = 'Variable "a" is equal to ' + caseList[i],
+            sum = 0;
+        for (var j=1; j<= caseList[i]; j++) {
+            sum += j;
+        }
+        it(caseTitle, function () {
+            assert.equal(loopsQuest(caseList[i]), sum);
+        });
+    }
+});
