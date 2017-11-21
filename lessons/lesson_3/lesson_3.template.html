@@ -9,7 +9,13 @@
 </head>
 <body><div class="container"><h2 id="lesson-3-objects">Lesson 3 - Objects</h2>
 
-<p>Introduction stuff</p>
+<p>You have already learned that JavaScript variables are containers for data values. <br>
+This code assigns a simple value (Fiat) to a variable named car:  <br>
+<code>var car = "Fiat";</code></p>
+
+<p>Objects are variables too. But objects can contain many values. <br>
+This code assigns many values (Fiat, 500, white) to a variable named car:  <br>
+<code>var car = {type:"Fiat", model:"500", color:"white"};</code></p>
 
 <hr>
 
@@ -17,97 +23,91 @@
 
 <h4 id="objects"><i class="icon-star"></i> Objects</h4>
 
-<p>Some stuff</p>
+<p>Objects in JavaScript combine two important functions <br>
+The first is associative array: a structure suitable for storing any data. In this topic we’ll learn exactly this type. <br>
+The second is the language capabilities for object-oriented programming. We will study these possibilities in the subsequent sections of the course.</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>What is associative arrays</li>
+<li>How to create an Object</li>
+<li>Property accessors: <em>dot notation</em> vs <em>bracket notation</em></li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
   - <a href="https://learn.javascript.ru/object">https://learn.javascript.ru/object</a> <br>
   - <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object">https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object</a>  <br>
-  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch3.md">https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch3.md</a></p>
+  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch3.md">https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch3.md</a> <br>
+  - <a href="https://www.w3schools.com/js/js_objects.asp">https://www.w3schools.com/js/js_objects.asp</a> <br>
+  - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors</a></p>
 </blockquote>
 
 
 
-<h4 id="objects-properties"><i class="icon-star"></i> Objects: properties</h4>
+<h4 id="objects-properties-passing-by-reference-and-cloning"><i class="icon-star"></i> Objects: properties, passing by reference and cloning</h4>
 
-<p>Some stuff</p>
+<p>In this topic you need to learn 3 very important things about objects in JavaScript - check them in <em>What you’ll learn</em> section!</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>Property enumeration in an object</li>
+<li>Passing object by reference</li>
+<li>Clone objects</li>
+<li>How to <code>delete</code> specific method.</li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
-  - <a href="https://learn.javascript.ru/data-structures">https://learn.javascript.ru/data-structures</a>  <br>
+  - <a href="https://learn.javascript.ru/object-for-in">https://learn.javascript.ru/object-for-in</a>  <br>
+  - <a href="https://learn.javascript.ru/object-reference">https://learn.javascript.ru/object-reference</a> <br>
   - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects</a> </p>
 </blockquote>
 
-
-
 <h4 id="objects-methods"><i class="icon-star"></i> Objects: methods</h4>
 
-<p>Some stuff</p>
+<p>Actually it is very small topic, nevertheless it is very important. Basically a <code>method</code> is a object property with a <code>function</code> type.</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>What is <em>object method</em> and how to add a method to an object?</li>
+<li><code>Object.assign()</code></li>
+<li><code>Object.keys()</code></li>
+<li><code>Object.values()</code></li>
+<li><code>Object.prototype.hasOwnProperty()</code></li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
-  - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions</a></p>
+  - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions</a> <br>
+  - In sidebar menu - <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object">https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object</a></p>
 </blockquote>
-
-
-
-<h4 id="objects-passing-by-reference"><i class="icon-star"></i> Objects: passing by reference</h4>
-
-<p>Some stuff</p>
-
-<p><em>What you’ll learn:</em></p>
-
-<ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
-</ol>
-
-<blockquote>
-  <p>Sources: <br>
-  - <a href="https://learn.javascript.ru/object-reference">https://learn.javascript.ru/object-reference</a> </p>
-</blockquote>
-
-
 
 <h4 id="prototypes"><i class="icon-star"></i> Prototypes</h4>
 
-<p>Some stuff</p>
+<p>All JavaScript objects inherit the properties and methods from their prototype. <br>
+Objects created using an object literal, or with <code>new Object()</code>, inherit from a prototype called <code>Object.prototype</code>. <br>
+Objects created with <code>new Date()</code> inherit the <code>Date.prototype</code>. <br>
+The Object.prototype is on the top of the prototype chain. <br>
+All JavaScript objects (<code>Date</code>, <code>Array</code>, <code>RegExp</code>, <code>Function</code>, …) inherit from the <code>Object.prototype</code>.</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>What is prototype in JavaScript?</li>
+<li>What is <code>Object.prototype</code></li>
+<li>What is <em>prototype chain</em>?</li>
+<li>What is <code>__proto__</code>?</li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
-  - <a href="https://learn.javascript.ru/prototypes">https://learn.javascript.ru/prototypes</a> </p>
+  - <a href="https://learn.javascript.ru/prototypes">https://learn.javascript.ru/prototypes</a>  <br>
+  - <a href="https://developer.mozilla.org/ru/docs/Learn/JavaScript/Objects/Object_prototypes">https://developer.mozilla.org/ru/docs/Learn/JavaScript/Objects/Object_prototypes</a> <br>
+  - <a href="https://www.w3schools.com/js/js_object_prototypes.asp">https://www.w3schools.com/js/js_object_prototypes.asp</a> <br>
+  - <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype">https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype</a></p>
 </blockquote></div></body>
 </html>
