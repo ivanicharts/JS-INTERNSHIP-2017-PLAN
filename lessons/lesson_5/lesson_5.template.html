@@ -7,124 +7,91 @@
 <link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
-<body><div class="container"><h2 id="lesson-5-closures-scope-lexical-environment">Lesson 5 - Closures, scope, lexical environment</h2>
+<body><div class="container"><h2 id="lesson-5-closures-and-scope">Lesson 5 - Closures and scope</h2>
 
-<p>Introduction stuff</p>
+<p>One of the most fundamental paradigms of nearly all programming languages is the ability to store values in variables, and later retrieve or modify those values. In fact, the ability to store values and pull values out of variables is what gives a program state.</p>
+
+<p>Without such a concept, a program could perform some tasks, but they would be extremely limited and not terribly interesting.</p>
+
+<p>But the inclusion of variables into our program begets the most interesting questions we will now address: where do those variables live? In other words, where are they stored? And, most importantly, how does our program find them when it needs them?</p>
+
+<p>These questions speak to the need for a well-defined set of rules for storing variables in some location, and for finding those variables at a later time. We’ll call that set of rules: Scope.</p>
+
+<p>But, where and how do these Scope rules get set?</p>
+
+<blockquote>
+  <p>Main sources: <br>
+  - <a href="https://learn.javascript.ru/functions-closures">https://learn.javascript.ru/functions-closures</a> <br>
+  - <a href="https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures">https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures</a></p>
+</blockquote>
 
 <hr>
 
-
-
 <h4 id="global-object"><i class="icon-star"></i> Global Object</h4>
 
-<p>Some stuff</p>
+<p>The mechanism of operation of functions and variables in JavaScript is very different from most languages. <br>
+To understand it, in this chapter we will look at variables and functions in the global domain. <br>
+In JavaScript, all global variables and functions are properties of a special object, called a <code>global object</code>.</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>What is <code>global object</code> in JavaScript</li>
+<li>What is <code>window</code>?</li>
+<li>And again, what is <code>hoisting</code> and how it actually works?</li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
   - <a href="https://learn.javascript.ru/global-object">https://learn.javascript.ru/global-object</a> <br>
   - <a href="https://developer.mozilla.org/ru/docs/Web/API/Window/window">https://developer.mozilla.org/ru/docs/Web/API/Window/window</a> <br>
-  -  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Global_object">https://developer.mozilla.org/en-US/docs/Glossary/Global_object</a></p>
+  - <a href="https://developer.mozilla.org/en-US/docs/Glossary/Global_object">https://developer.mozilla.org/en-US/docs/Glossary/Global_object</a></p>
 </blockquote>
 
 
 
 <h4 id="closures"><i class="icon-star"></i> Closures</h4>
 
-<p>Some stuff</p>
+<p>IMHO <em>closures</em> are the most frequent question on JavaScript interviews. Basically it is mechanism how JavaScript divides variables on <code>inner</code> and <code>outer</code>. Lets perceive this topic as introduction for next one.</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>What is <em>Closure</em> in JavaScript?</li>
+<li>What is <code>LexicalEnvironment</code>?</li>
+<li>What is <code>[[Scope]]</code>?</li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
-  - <a href="https://learn.javascript.ru/closures">https://learn.javascript.ru/closures</a> </p>
+  - <a href="https://learn.javascript.ru/closures">https://learn.javascript.ru/closures</a>  <br>
+  - <a href="https://learn.javascript.ru/closures-usage">https://learn.javascript.ru/closures-usage</a></p>
 </blockquote>
-
-
 
 <h4 id="scope"><i class="icon-star"></i> Scope</h4>
 
-<p>Some stuff</p>
+<p><em>Closures</em> and <em>Scope</em> is the most important topics in JavaScript (on a par with asynchrony of course). Prepare for a lot of information, but as faster you’ll understand what it is and how to use it as sooner you’ll be JavaScript guru!</p>
 
 <p><em>What you’ll learn:</em></p>
 
 <ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
+<li>What is Scope?</li>
+<li>What is nested scope?</li>
+<li>Function scope VS block scope</li>
+<li>Functions as Scope</li>
+<li>Invoking Function Expressions Immediately</li>
+<li>And again, what is <code>hoisting</code> and how it actually works?</li>
+<li>Scope closure</li>
+<li>Loops+closure routine</li>
+<li>Modules</li>
 </ol>
 
 <blockquote>
   <p>Sources: <br>
-  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md</a></p>
-</blockquote>
-
-
-
-<h4 id="lexical-scope-and-scope-closure"><i class="icon-star"></i> Lexical Scope and Scope closure</h4>
-
-<p>Some stuff</p>
-
-<p><em>What you’ll learn:</em></p>
-
-<ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
-</ol>
-
-<blockquote>
-  <p>Sources: <br>
-  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md</a>  <br>
+  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md</a> <br>
+  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md</a> <br>
+  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md</a>  <br>
+  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md</a> <br>
   - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md</a></p>
-</blockquote>
-
-<h4 id="functions-scope-and-blocks-scope"><i class="icon-star"></i> Functions scope and blocks scope</h4>
-
-<p>Some stuff</p>
-
-<p><em>What you’ll learn:</em></p>
-
-<ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
-</ol>
-
-<blockquote>
-  <p>Sources: <br>
-  - <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md">https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md</a></p>
-</blockquote>
-
-
-
-<h4 id="local-variables"><i class="icon-star"></i> Local variables</h4>
-
-<p>Some stuff</p>
-
-<p><em>What you’ll learn:</em></p>
-
-<ol>
-<li>Question 1</li>
-<li>Question 2</li>
-<li>Question 3</li>
-</ol>
-
-<blockquote>
-  <p>Sources: <br>
-  - <a href="https://learn.javascript.ru/closures-usage">https://learn.javascript.ru/closures-usage</a></p>
 </blockquote></div></body>
 </html>
