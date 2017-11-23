@@ -1,5 +1,5 @@
 
-Lesson 7 - async, events, error handlers
+Lesson 7 - async, events, error handlers, API requests
 ------------------------------------------------------------
 
 
@@ -62,6 +62,19 @@ Some stuff
 
 > Sources:
 > - https://learn.javascript.ru/events-and-interfaces
+
+
+#### <i class="icon-star"></i> API requests
+Some stuff
+
+*What you'll learn:*
+
+ 1. Question 1
+ 2. Question 2
+ 3. Question 3
+
+> Sources:
+> - https://learn.javascript.ru/fetch
 
 
 
